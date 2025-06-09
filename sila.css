@@ -1,13 +1,5 @@
-  .volkhov-regular {
-  font-family: "Volkhov", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-  .volkhov-bold {
-  font-family: "Volkhov", serif;
-  font-weight: 700;
-  font-style: normal;
+  body {
+  font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .header {
@@ -73,10 +65,9 @@
     box-sizing: border-box;
   }
 
- 
-   .prg {
-  padding: 40px 20px;
-  margin: 0 auto;
+.prg {
+   padding: 40px 20px;
+   max-width: 800px;
 }
 
 .prg h2 {
@@ -187,7 +178,7 @@
     color: #c9c9c9;
   } 
   
-  @media (max-width: 600px) {
+  @media (max-width: 992px) {
   
     .hero {
       height: auto;
